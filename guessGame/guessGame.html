@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="guessGame.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Adivinhação</h1>
+        <button onclick="startGame()">Iniciar Jogo</button>
+        <div id="gameArea" style="display: none;">
+            <p>Pense em um número de 1 a 100 e clique em "Próximo" para começar.</p>
+            <button onclick="nextGuess()">Próximo</button>
+            <p id="chute"></p>
+            <div id="resposta"></div>
+        </div>
+    </div>
+    <script src="guessGame.js"></script>
+</body>
+</html>
